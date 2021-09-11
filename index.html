@@ -28,14 +28,14 @@
 
 <script type="text/javascript">
     function restoreState(valueToRestore) {
-        alert("restoring state in web view")
+        alert("restoring state in web view");
         document.getElementById('txt').value = valueToRestore;
     }
 </script>
 
 <script type="text/javascript">
     function saveState() {
-        alert("saving state in android app")
+        alert("saving state in android app");
         Android.saveState(document.getElementById('txt').value);
     }
 </script>
